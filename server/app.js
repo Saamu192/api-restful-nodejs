@@ -21,6 +21,4 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ err: err.message });
 });
 
-app.listen(3000, () => {
-  console.log("Server runing at port 3000");
-});
+export default app;

@@ -7,4 +7,8 @@ routes.get("/favicon.ico", (req, res) => {
   return res.end("");
 });
 
+routes.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
 export { routes };

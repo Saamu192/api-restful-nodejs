@@ -1,12 +1,12 @@
 {
   "name": "star-wars-api-restful",
   "version": "1.0.0",
-  "main": "server/app.js",
+  "main": "index.js",
   "type": "module",
   "license": "MIT",
   "author": "Samuel Persuhn",
   "scripts": {
-    "dev": "nodemon server/app"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
